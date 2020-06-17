@@ -1,0 +1,16 @@
+body{
+    width: 1920px;
+    height: auto;
+    background: #FFFFFF;
+	    
+	.content{
+		width: 85%;
+		height: auto;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-align-items: center;
+		        align-items: center;
+	}
+}
