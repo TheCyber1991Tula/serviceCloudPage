@@ -16,8 +16,8 @@ header{
 		    -webkit-justify-content: space-between;
 		            justify-content: space-between;
 		background: #FFF;
-		width: 90%;
 		height: 40px;
+		padding: 5px;
 
 		a{
 			padding: 0;
@@ -45,17 +45,20 @@ header{
 			}
 		}
 	}
-
+		
 	.header__bottom{
 		display: flex;
 		-webkit-flex-direction: row;
 		    -ms-flex-direction: row;
 		        flex-direction: row;
-		width: 100%;
+		    -webkit-justify-content: space-between;
+		            justify-content: space-between;
+		width: 1920px;
 		height: 65px;
+		padding: 5px;
 		background: #F4F4F4;
 		
-		.links{
+		.header__bottom__left{
 			display: flex;
 			-webkit-flex-direction: row;
 			    -ms-flex-direction: row;
@@ -64,9 +67,11 @@ header{
 			            justify-content: space-between;
 			    -webkit-align-items: center;
 			            align-items: center;
-			    width: 60%;
+			    width: 25%;
+			    padding: 0;
 			
 			a{
+				line-height: 18px;
 				color:  #6F6F6F;
 				text-decoration: none;
 				font:{
@@ -80,6 +85,67 @@ header{
 					width: 14px;
 					height: 14px;
 					margin: 2px;
+				}
+			}
+		}
+
+		.header__bottom__right{
+			display: flex;
+			-webkit-flex-direction: row;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			    -webkit-justify-content: space-between;
+			            justify-content: space-between;
+			    -webkit-align-items: center;
+			            align-items: center;
+			    width: 50%;
+			    
+			a{
+				color: #6F6F6F;
+				text-decoration: none;
+				font:{
+					family: PT Sans;
+					style: normal;
+					weight: normal;
+					size: 14px;
+				}
+			}
+
+			.searchbar{
+				padding: 0;
+				width: 233px;
+				height: 32px;
+				border: 1px solid #B6B6B6;
+				-webkit-border-radius: 45px;
+				        border-radius: 45px;
+				display: flex;
+				-webkit-flex-direction: row;
+				    -ms-flex-direction: row;
+				        flex-direction: row;
+				    -webkit-justify-content: space-around;
+				            justify-content: space-around;
+				    -webkit-align-items: center;
+				            align-items: center;
+				    
+				input{
+					border: none;
+					background: none;
+					
+				}
+			}
+
+			.lang{
+				margin: 10px;
+				
+				b{
+					color: #F76201;
+					line-height: 18px;
+					font:{
+						family: PT Sans Caption;
+						style: normal;
+						weight: bold;
+						size: 14px;
+					}
 				}
 			}
 		}

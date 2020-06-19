@@ -1,3 +1,95 @@
 .tryIt{
+	width: 100%;
+	height: 367px;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-align-items: stretch;
+	        align-items: stretch;
 	
+	h3{
+		margin-bottom: 70px;
+		color: #333333;
+		line-height: 41px;
+		font:{
+			family: PT Sans Caption;
+			size: 32px;
+			weight: bold;
+			style: normal;
+		}
+	}
+
+	.inputs{
+		display: flex;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		    -webkit-justify-content: space-between;
+		            justify-content: space-between;
+		    -webkit-align-items: center;
+		            align-items: center;
+
+		input{
+			padding-left: 30px;
+			width: 384px;
+			height: 64px;
+			border: 1px solid #B6B6B6;
+			border-radius: 5px;
+			color: #6F6F6F;
+			line-height: 29px;
+			font:{
+				family: PT Sans;
+				size: 16px;
+				weight: normal;
+				style: normal;
+			}
+		}
+	}
+
+	.tryIt__wrap{
+		display: flex;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		    
+		p{
+			color: #6F6F6F;
+			line-height: 29px;
+			font:{
+				family: PT Sans;
+				size: 14px;
+				weight: normal;
+				style: normal;
+			}
+
+			a{
+				color: #FF4D00;
+				line-height: 29px;
+				font:{
+					family: PT Sans;
+					size: 14px;
+					weight: normal;
+					style: normal;
+				}
+			}
+		}
+		    
+		button{
+			margin-right: 30px;
+			width: 319px;
+			height: 48px;
+			background: linear-gradient(180deg, #F76201 0%, #FF4D00 100%);
+			border: none;
+			-webkit-border-radius: 45px;
+			        border-radius: 45px;
+			color: #fff;
+			
+			&:hover{
+				cursor: pointer;
+			}
+		}
+	}
 }

@@ -1,3 +1,110 @@
 .firstScreen{
+	margin-top: 200px;
+	width: inherit;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
 	
+	.firstScreen__left{
+		width: 60%;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		
+		h2{
+			color: #333333;
+			line-height: 56px;
+			font:{
+				family: PT Sans Caption;
+				size: 40px;
+				weight: bold;
+				style: normal;
+			}
+		}
+
+		p{
+			color: #999999;
+			line-height: 21px;
+			font:{
+				family: PT Sans;
+				size: 16px;
+				weight: normal;
+				style: normal;
+			}
+		}
+
+		ul{
+			li{
+				margin-bottom: 15px;
+				color: #333333;
+				line-height: 26px;
+				font:{
+					family: PT Sans;
+					size: 20px;
+					weight: normal;
+					style: normal;
+				}
+			}
+		}
+
+		.firstScreen__left__buttons{
+			display: flex;
+			-webkit-flex-direction: row;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			    -webkit-justify-content: space-between;
+			            justify-content: space-between;
+			    -webkit-align-items: center;
+			            align-items: center;
+			    width: 90%;
+			    
+			button{
+				width: 319px;
+				height: 48px;
+				background: linear-gradient(180deg, #F76201 0%, #FF4D00 100%);
+				border: none;
+				-webkit-border-radius: 45px;
+				        border-radius: 45px;
+				color: #fff;
+				
+				&:hover{
+					cursor: pointer;
+				}
+			}
+
+			a{
+				text-decoration: none;
+				color: #F76201;
+				line-height: 18px;
+				font:{
+					family: PT Sans Caption;
+					size: 14px;
+					weight: bold;
+					style: normal;
+				}
+			}
+		}
+	}
+
+	.firstScreen__right{
+		width: auto;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		
+		img{
+			padding: 0;
+		}
+	}
 }

@@ -1,3 +1,94 @@
 nav{
+	width: 100%;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-align-items: baseline;
+	        align-items: baseline;
 	
+	.nav__left{
+		width: 40%;
+		display: flex;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		    -webkit-justify-content: space-between;
+		            justify-content: space-between;
+		    -webkit-align-items: center;
+		            align-items: center;
+		    
+		ul{
+			display: flex;
+			-webkit-flex-direction: row;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			    
+			li{
+				display: flex;
+				-webkit-flex-direction: row;
+				    -ms-flex-direction: row;
+				        flex-direction: row;
+				    -webkit-justify-content: center;
+				            justify-content: center;
+				    -webkit-align-items: center;
+				            align-items: center;
+				    margin: 10px;
+			}
+		}
+	}
+
+	.nav__right{
+		width: 40%;
+		display: flex;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-align-items: baseline;
+		        align-items: baseline;
+		-webkit-justify-content: space-around;
+		        justify-content: space-around;
+		
+		b{
+			
+		}
+		
+		.nav__right__login{
+			display: flex;
+			-webkit-flex-direction: row;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			    -webkit-justify-content: space-around;
+			            justify-content: space-around;
+			    -webkit-align-items: center;
+			            align-items: center;
+			    
+			p{
+				color: #F76201;
+				line-height: 18px;
+				font:{
+					family: PT Sans Caption;
+					size: 14px;
+					weight: bold;
+					style: normal;
+				}
+			}
+
+			button{
+				width: 176px;
+				height: 48px;
+				background: linear-gradient(180deg, #F76201 0%, #FF4D00 100%);
+				border: none;
+				-webkit-border-radius: 45px;
+				        border-radius: 45px;
+				color: #fff;
+				
+				&:hover{
+					cursor: pointer;
+				}
+			}
+		}
+	}
 }

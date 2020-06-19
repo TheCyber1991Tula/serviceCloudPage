@@ -4,13 +4,12 @@ body{
     background: #FFFFFF;
 	    
 	.content{
-		width: 85%;
+		width: 1360px;
 		height: auto;
-		display: flex;
-		-webkit-flex-direction: column;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
-		-webkit-align-items: center;
-		        align-items: center;
+		background: #FFFFFF;
+		
+		.hidden{
+			display: none;
+		}
 	}
 }
