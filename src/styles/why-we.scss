@@ -1,1 +1,105 @@
-.whyWe{}
+.whyWe{
+	width: inherit;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	height: 600px;
+
+	.whyWe__content{
+		width: 100%;
+		display: flex;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		
+		.whyWe__content__left{
+			display: flex;
+			-webkit-flex-direction: column;
+			    -ms-flex-direction: column;
+			        flex-direction: column;
+			    -webkit-justify-content: flex-start;
+			            justify-content: flex-start;
+			    -webkit-align-items: flex-start;
+			            align-items: flex-start;
+			    width: 50%;
+			    
+			h3{
+				margin-bottom: 70px;
+				color: #333333;
+				line-height: 41px;
+				font:{
+					family: PT Sans Caption;
+					size: 32px;
+					weight: bold;
+					style: normal;
+				}
+			}
+
+			.whyWe__content__cards{
+				display: grid;
+				grid-template-rows: 2fr 2fr;
+				grid-template-columns: 2fr 2fr;
+				grid-gap: 60px;
+				
+				.whyWe__content__card{
+					width: 330px;
+					
+					b{
+						color: #178A00;
+						line-height: 56px;
+						font:{
+							family: PT Sans Caption;
+							size: 32px;
+							weight: bold;
+							style: normal;
+						}
+					}
+
+					p{
+						color: #333333;
+						line-height: 30px;
+						font:{
+							family: PT Sans;
+							size: 20px;
+							weight: normal;
+							style: normal;
+						}
+					}
+				}
+			}
+
+			a{
+				margin: 40px 0 40px 0;
+				display: flex;
+				-webkit-align-items: baseline;
+				        align-items: baseline;
+				color: #F76201;
+				line-height: 18px;
+				font:{
+					family: PT Sans Caption;
+					size: 14px;
+					weight: bold;
+					style: normal;
+				}
+
+				img{
+					margin: 5px;
+				}
+			}
+		}
+
+		.whyWe__content__right{
+			width: 50%;
+			display: flex;
+			-webkit-justify-content: center;
+			        justify-content: center;
+			-webkit-align-items: center;
+			        align-items: center;
+		}
+	}
+}
