@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
 .tariffs{
 	display: flex;
 	-webkit-flex-direction: column;
@@ -14,7 +17,7 @@
 		color: #333333;
 		line-height: 41px;
 		font:{
-			family: PT Sans Caption;
+			family: 'Open Sans', sans-serif;
 			size: 32px;
 			weight: bold;
 			style: normal;
@@ -48,7 +51,7 @@
 			p{
 				color: #000;
 				font:{
-					family: PT Sans;
+					family: 'Open Sans', sans-serif;
 					size: 20px;
 					weight: normal;
 					style: normal;
@@ -64,7 +67,7 @@
 				background: #F44E20;
 				color: #fff;
 				font:{
-					family: PT Sans Caption;
+					family: 'Open Sans', sans-serif;
 					size: 14px;
 					weight: normal;
 					style: normal;
@@ -126,8 +129,8 @@
 					line-height: 26px;
 					color: #333333;
 					font:{
-						family: PT Sans Caption;
-						size: 20px;
+						family: 'Ubuntu', sans-serif;
+						size: 25px;
 						weight: bold;
 						style: normal;
 					}
@@ -137,7 +140,7 @@
 					line-height: 20px;
 					color: #999999;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 16px;
 						weight: normal;
 						style: normal;
@@ -156,10 +159,11 @@
 					            align-items: baseline;
 					    
 					b{
+						letter-spacing: 3px;
 						line-height: 62px;
 						color: #178A00;;
 						font:{
-							family: PT Sans Caption;
+							family: 'Open Sans', sans-serif;
 							size: 48px;
 							weight: bold;
 							style: normal;
@@ -171,7 +175,7 @@
 						line-height: 26px;
 						color: #999999;
 						font:{
-							family: PT Sans Caption;
+							family: 'Open Sans', sans-serif;
 							size: 32px;
 							weight: normal;
 							style: normal;
@@ -192,7 +196,7 @@
 					margin: 0;
 					color: #000000;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 20px;
 						weight: normal;
 						style: normal;
@@ -214,7 +218,7 @@
 					color: #178A00;
 					line-height: 29px;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 20px;
 						weight: bold;
 						style: normal;
@@ -230,7 +234,7 @@
 						color: #333333;
 						line-height: 44px;
 						font:{
-							family: PT Sans;
+							family: 'Open Sans', sans-serif;
 							size: 20px;
 							weight: normal;
 							style: normal;
@@ -253,7 +257,7 @@
 					color: #178A00;
 					line-height: 29px;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 20px;
 						weight: bold;
 						style: normal;
@@ -269,7 +273,7 @@
 						color: #333333;
 						line-height: 44px;
 						font:{
-							family: PT Sans;
+							family: 'Open Sans', sans-serif;
 							size: 20px;
 							weight: normal;
 							style: normal;
@@ -292,7 +296,7 @@
 					color: #178A00;
 					line-height: 18px;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 18px;
 						weight: bold;
 						style: normal;
@@ -345,8 +349,8 @@
 					line-height: 26px;
 					color: #333333;
 					font:{
-						family: PT Sans Caption;
-						size: 20px;
+						family: 'Ubuntu', sans-serif;
+						size: 25px;
 						weight: bold;
 						style: normal;
 					}
@@ -356,7 +360,7 @@
 					line-height: 20px;
 					color: #999999;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 16px;
 						weight: normal;
 						style: normal;
@@ -375,10 +379,11 @@
 					            align-items: baseline;
 					    
 					b{
+						letter-spacing: 3px;
 						line-height: 62px;
 						color: #F76201;
 						font:{
-							family: PT Sans Caption;
+							family: 'Open Sans', sans-serif;
 							size: 48px;
 							weight: bold;
 							style: normal;
@@ -390,7 +395,7 @@
 						line-height: 26px;
 						color: #999999;
 						font:{
-							family: PT Sans Caption;
+							family: 'Open Sans', sans-serif;
 							size: 32px;
 							weight: normal;
 							style: normal;
@@ -411,7 +416,7 @@
 					margin: 0;
 					color: #000000;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 20px;
 						weight: normal;
 						style: normal;
@@ -433,7 +438,7 @@
 					color: #F76201;
 					line-height: 29px;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 20px;
 						weight: bold;
 						style: normal;
@@ -449,7 +454,7 @@
 						color: #333333;
 						line-height: 44px;
 						font:{
-							family: PT Sans;
+							family: 'Open Sans', sans-serif;
 							size: 20px;
 							weight: normal;
 							style: normal;
@@ -478,7 +483,7 @@
 					color: #F76201;
 					line-height: 29px;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 20px;
 						weight: bold;
 						style: normal;
@@ -494,7 +499,7 @@
 						color: #333333;
 						line-height: 44px;
 						font:{
-							family: PT Sans;
+							family: 'Open Sans', sans-serif;
 							size: 20px;
 							weight: normal;
 							style: normal;
@@ -517,7 +522,7 @@
 					color: #F76201;
 					line-height: 18px;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 18px;
 						weight: bold;
 						style: normal;

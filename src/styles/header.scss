@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 
 header{
 	width: 100%;
@@ -25,6 +24,9 @@ header{
 		a{
 			padding: 0;
 			display: flex;
+			-webkit-flex-direction: row;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
 			-webkit-align-items: center;
 			        align-items: center;
 			color: #6F6F6F;
@@ -40,11 +42,13 @@ header{
 			img.prev{
 				width: 10px;
 				height: 10px;
+				margin-left: 8px;
 			}
 
 			img.close{
 				width: 15px;
 				height: 15px;
+				margin-left: 8px;
 			}
 		}
 	}
@@ -72,22 +76,37 @@ header{
 			            align-items: center;
 			    width: 25%;
 			    padding: 0;
-			
-			a{
-				line-height: 18px;
-				color:  #6F6F6F;
-				text-decoration: none;
-				font:{
-					family: 'Open Sans', sans-serif;
-					style: normal;
-					weight: normal;
-					size: 14px;
-				}
+			ul{
+				padding: 0;
+				display: flex;
+				-webkit-flex-direction: row;
+				    -ms-flex-direction: row;
+				        flex-direction: row;
+				li{
+					list-style: none;
+					margin-right: 50px;
+					
+					a{
+						display: flex;
+						-webkit-flex-direction: row;
+						    -ms-flex-direction: row;
+						        flex-direction: row;
+						    -webkit-align-items: center;
+						            align-items: center;
+						line-height: 18px;
+						color:  #6F6F6F;
+						text-decoration: none;
+						font:{
+							family: 'Open Sans', sans-serif;
+							style: normal;
+							weight: normal;
+							size: 14px;
+						}
 
-				img{
-					width: 14px;
-					height: 14px;
-					margin: 2px;
+						img{
+							margin: 5px;
+						}
+					}
 				}
 			}
 		}
@@ -144,7 +163,7 @@ header{
 					color: #F76201;
 					line-height: 18px;
 					font:{
-						family: 'Roboto Mono', monospace;
+						family: 'Open Sans', sans-serif;
 						style: normal;
 						weight: bold;
 						size: 14px;

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 .firstScreen{
 	margin-top: 200px;
 	width: inherit;
@@ -21,8 +24,8 @@
 			color: #333333;
 			line-height: 56px;
 			font:{
-				family: PT Sans Caption;
-				size: 40px;
+				family: 'Open Sans', sans-serif;
+				size: 48px;
 				weight: bold;
 				style: normal;
 			}
@@ -32,7 +35,7 @@
 			color: #999999;
 			line-height: 21px;
 			font:{
-				family: PT Sans;
+				family: 'Open Sans', sans-serif;
 				size: 16px;
 				weight: normal;
 				style: normal;
@@ -45,7 +48,7 @@
 				color: #333333;
 				line-height: 26px;
 				font:{
-					family: PT Sans;
+					family: 'Ubuntu', sans-serif;
 					size: 20px;
 					weight: normal;
 					style: normal;
@@ -72,6 +75,13 @@
 				-webkit-border-radius: 45px;
 				        border-radius: 45px;
 				color: #fff;
+				line-height: 20px;
+				font:{
+					family: 'Ubuntu', sans-serif;
+					size: 14px;
+					weight: normal;
+					style: normal;
+				}
 				
 				&:hover{
 					cursor: pointer;
@@ -83,7 +93,7 @@
 				color: #F76201;
 				line-height: 18px;
 				font:{
-					family: PT Sans Caption;
+					family: 'Open Sans', sans-serif;
 					size: 14px;
 					weight: bold;
 					style: normal;
