@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .useful{
 	display: flex;
 	-webkit-flex-direction: column;
@@ -7,14 +9,14 @@
 	            justify-content: flex-start;
 	    width: 100%;
 	    height: auto;
-	    margin-bottom: 200px;
+	    margin-bottom: 100px;
 	    
 	h3{
 		margin-bottom: 70px;
 		color: #333333;
 		line-height: 41px;
 		font:{
-			family: PT Sans Caption;
+			family: 'Open Sans', sans-serif;
 			size: 32px;
 			weight: bold;
 			style: normal;
@@ -29,11 +31,10 @@
 		        flex-direction: row;
 		-webkit-align-items: center;
 		        align-items: center;
-		-webkit-justify-content: center;
-		        justify-content: center;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
 		
 		button{
-			margin-right: 30px;
 			width: auto;
 			padding: 0 40px 0 40px;
 			height: 48px;
@@ -42,6 +43,13 @@
 			-webkit-border-radius: 45px;
 			        border-radius: 45px;
 			color: #000;
+			line-height: 32px;
+			font:{
+				family: 'Open Sans', sans-serif;
+				size: 14px;
+				weight: bold;
+				style: normal;
+			}
 			
 			&:hover{
 				cursor: pointer;
@@ -78,7 +86,7 @@
 					color: #333333;
 					line-height: 26px;
 					font:{
-						family: PT Sans Caption;
+						family: 'Open Sans', sans-serif;
 						size: 20px;
 						weight: bold;
 						style: normal;
@@ -95,9 +103,9 @@
 						color: #333333;
 						line-height: 24px;
 						font:{
-							family: PT Sans;
+							family: 'Open Sans', sans-serif;
 							size: 14px;
-							weight: normal;
+							weight: bold;
 							style: normal;
 						}
 					}

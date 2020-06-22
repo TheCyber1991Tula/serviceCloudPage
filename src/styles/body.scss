@@ -2,12 +2,24 @@ body{
     width: 1920px;
     height: auto;
     background: #FFFFFF;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+            align-items: center;
 	    
 	.content{
-		width: 1360px;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		    -webkit-justify-content: center;
+		            justify-content: center;
+		width: 1366px;
 		height: auto;
 		background: #FFFFFF;
-		
+				
 		.hidden{
 			display: none;
 		}

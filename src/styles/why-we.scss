@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
 .whyWe{
 	width: inherit;
 	display: flex;
@@ -5,7 +8,7 @@
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 	height: 600px;
-	margin-bottom: 300px;
+	margin-bottom: 70px;
 
 	.whyWe__content{
 		width: 100%;
@@ -34,7 +37,7 @@
 				color: #333333;
 				line-height: 41px;
 				font:{
-					family: PT Sans Caption;
+					family: 'Open Sans', sans-serif;
 					size: 32px;
 					weight: bold;
 					style: normal;
@@ -54,7 +57,7 @@
 						color: #178A00;
 						line-height: 56px;
 						font:{
-							family: PT Sans Caption;
+							family: 'Open Sans', sans-serif;
 							size: 32px;
 							weight: bold;
 							style: normal;
@@ -65,9 +68,9 @@
 						color: #333333;
 						line-height: 30px;
 						font:{
-							family: PT Sans;
+							family: 'Open Sans', sans-serif;
 							size: 20px;
-							weight: normal;
+							weight: bold;
 							style: normal;
 						}
 					}
@@ -82,7 +85,7 @@
 				color: #F76201;
 				line-height: 18px;
 				font:{
-					family: PT Sans Caption;
+					family: 'Open Sans', sans-serif;
 					size: 14px;
 					weight: bold;
 					style: normal;
