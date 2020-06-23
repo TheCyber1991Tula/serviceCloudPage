@@ -13,6 +13,10 @@
 	        align-items: stretch;
 	margin-bottom: 70px;
 	
+	@media screen and (max-width: 1366px){
+		width: 995px;
+	}
+	
 	h3{
 		margin-bottom: 70px;
 		color: #333333;
@@ -22,6 +26,10 @@
 			size: 32px;
 			weight: bold;
 			style: normal;
+		}
+
+		@media screen and(max-width: 1366px){
+			margin-bottom: 15px;
 		}
 	}
 
@@ -54,6 +62,12 @@
 					size: 16px;
 					weight: normal;
 					style: normal;
+				}
+
+				@media screen and(max-width: 1366px){
+					width: 300px;
+					height: 56px;
+					padding-left: 20px;
 				}
 			}
 		}
@@ -110,6 +124,10 @@
 			
 			&:hover{
 				cursor: pointer;
+			}
+
+			@media screen and(max-width: 1366px){
+				width: 288px;
 			}
 		}
 	}

@@ -13,6 +13,10 @@ nav{
 	-webkit-align-items: baseline;
 	        align-items: baseline;
 	
+	@media screen and(max-width: 1366px){
+		width: 995px;
+	}
+	
 	.nav__left{
 		width: 50%;
 		height: 100%;
@@ -24,6 +28,10 @@ nav{
 		            justify-content: space-between;
 		-webkit-align-items: center;
 		        align-items: center;
+		
+		@media screen and (max-width: 1366px){
+			width: 65%;
+		}
 		
 		.nav__left__logo{
 			display: flex;
@@ -48,6 +56,12 @@ nav{
 			-webkit-align-items: flex-end;
 			        align-items: flex-end;
 			height: 100%;
+			
+			@media screen and(max-width: 1366px){
+				width: 80%;
+				-webkit-justify-content: space-around;
+				        justify-content: space-around;
+			}
 			    
 			li{
 				margin: 10px;
@@ -92,6 +106,14 @@ nav{
 				style: normal;
 				weight: normal;
 				size: 14px;
+			}
+		}
+
+		@media screen and(max-width: 1366px){
+			width: 30%;
+
+			b{
+				display: none;
 			}
 		}
 		

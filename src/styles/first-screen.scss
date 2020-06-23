@@ -13,12 +13,21 @@
 	-webkit-align-items: flex-start;
 	        align-items: flex-start;
 	
+	@media screen and(max-width: 1366px){
+		margin-top: 40px;
+		width: 995px;
+	}
+	
 	.firstScreen__left{
 		width: 50%;
 		display: flex;
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
 		        flex-direction: column;
+		
+		@media screen and(max-width: 1366px){
+			width: 45%;
+		}
 		
 		h2{
 			color: #333333;
@@ -28,6 +37,13 @@
 				size: 48px;
 				weight: bold;
 				style: normal;
+			}
+
+			@media screen and(max-width: 1366px){
+				line-height: 48px;
+				font: {
+					size: 36px
+				}
 			}
 		}
 
@@ -39,6 +55,13 @@
 				size: 16px;
 				weight: normal;
 				style: normal;
+			}
+
+			@media screen and(max-width: 1366px){
+				line-height: 18px;
+				font: {
+					size: 14px;
+				}
 			}
 		}
 
@@ -52,6 +75,14 @@
 					size: 20px;
 					weight: normal;
 					style: normal;
+				}
+
+				@media screen and(max-width: 1366px){
+					margin-bottom: 10px;
+					line-height: 23px;
+					font:{
+						size: 18px
+					}
 				}
 			}
 		}
@@ -67,6 +98,10 @@
 			            align-items: center;
 			    width: 90%;
 			    
+			    @media screen and(max-width: 1366px){
+			    	width: 100%;
+			    }
+			    
 			button{
 				width: 319px;
 				height: 48px;
@@ -81,6 +116,11 @@
 					size: 14px;
 					weight: normal;
 					style: normal;
+				}
+
+				@media screen and(max-width: 1366px){
+					width: 248px;
+					line-height: 18px;
 				}
 				
 				&:hover{
@@ -112,6 +152,16 @@
 		        justify-content: center;
 		-webkit-align-items: center;
 		        align-items: center;
+		
+		@media screen and(max-width: 1366px){
+			img.first__screen__img-1920{
+				display: none;
+			}
+
+			img.first__screen__img-1366{
+				display: block;
+			}
+		}
 		
 		img{
 			padding: 0;

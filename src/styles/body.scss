@@ -8,6 +8,8 @@ body{
             flex-direction: column;
     -webkit-align-items: center;
             align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
 	    
 	.content{
 		display: flex;
@@ -19,6 +21,10 @@ body{
 		width: 1366px;
 		height: auto;
 		background: #FFFFFF;
+		
+		@media screen and(max-width: 1366px){
+			width: 995px;
+		}
 				
 		.hidden{
 			display: none;

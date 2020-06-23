@@ -12,6 +12,10 @@
 	    height: 1187px;
 	    margin-bottom: 100px;
 	    
+	    @media screen and (max-width: 1366px){
+	    	margin-bottom: 50px;
+	    }
+	    
 	h3{
 		margin-bottom: 70px;
 		color: #333333;
@@ -21,6 +25,10 @@
 			size: 32px;
 			weight: bold;
 			style: normal;
+		}
+
+		@media screen and(max-width: 1366px){
+			margin-bottom: 30px;
 		}
 	}
 
@@ -114,6 +122,11 @@
 				border-top: 10px solid #178A00;
 				border-radius: 8px 8px 10px 10px;
 				
+			@media screen and(max-width: 1366px){
+				width: 484px;
+				height: 967px;
+			}
+				
 			.optim__head{
 				display: flex;
 				height: 300px;
@@ -160,6 +173,10 @@
 					        justify-content: space-between;
 					    -webkit-align-items: baseline;
 					            align-items: baseline;
+					
+					@media screen and(max-width: 1366px){
+						width: 85%;
+					}
 					    
 					b{
 						letter-spacing: 3px;
@@ -197,6 +214,7 @@
 				        align-items: center;
 				
 				p{
+					line-height: 32px;
 					margin: 0;
 					color: #000000;
 					font:{
@@ -204,6 +222,12 @@
 						size: 20px;
 						weight: bold;
 						style: normal;
+					}
+
+					@media screen and(max-width: 1366px){
+						font: {
+							size: 18px
+						}
 					}
 				}
 			}
@@ -227,6 +251,12 @@
 						weight: bold;
 						style: normal;
 					}
+
+					@media screen and(max-width: 1366px){
+						font: {
+							size: 18px
+						}
+					}
 				}
 
 				ul{
@@ -242,6 +272,13 @@
 							size: 20px;
 							weight: bold;
 							style: normal;
+						}
+
+						@media screen and(max-width: 1366px){
+							line-height: 42px;
+							font:{
+								size: 18px;
+							}
 						}
 					}
 				}
@@ -266,6 +303,12 @@
 						weight: bold;
 						style: normal;
 					}
+
+					@media screen and(max-width: 1366px){
+						font: {
+							size: 18px
+						}
+					}
 				}
 
 				ul{
@@ -281,6 +324,13 @@
 							size: 20px;
 							weight: bold;
 							style: normal;
+						}
+
+						@media screen and(max-width: 1366px){
+							line-height: 42px;
+							font:{
+								size: 18px;
+							}
 						}
 					}
 				}
@@ -336,6 +386,11 @@
 				border-top: 10px solid #F76201;
 				border-radius: 8px 8px 10px 10px;
 				
+				@media screen and(max-width: 1366px){
+					width: 484px;
+					height: 967px;
+				}
+				
 			.lite__head{
 				display: flex;
 				height: 300px;
@@ -382,6 +437,9 @@
 					        justify-content: space-between;
 					    -webkit-align-items: baseline;
 					            align-items: baseline;
+					@media screen and(max-width: 1366px){
+						width: 65%;
+					}
 					    
 					b{
 						letter-spacing: 3px;
@@ -427,6 +485,12 @@
 						weight: bold;
 						style: normal;
 					}
+
+					@media screen and(max-width: 1366px){
+						font: {
+							size: 18px
+						}
+					}
 				}
 			}
 
@@ -449,6 +513,12 @@
 						weight: bold;
 						style: normal;
 					}
+
+					@media screen and(max-width: 1366px){
+						font: {
+							size: 18px
+						}
+					}
 				}
 
 				ul{
@@ -470,6 +540,13 @@
 							line-height: 44px;
 							color: #999999;
 							list-style: url('../img/Vector orange h.png');
+						}
+
+						@media screen and(max-width: 1366px){
+							line-height: 42px;
+							font:{
+								size: 18px;
+							}
 						}
 					}
 				}
@@ -494,6 +571,12 @@
 						weight: bold;
 						style: normal;
 					}
+
+					@media screen and(max-width: 1366px){
+						font: {
+							size: 18px
+						}
+					}
 				}
 
 				ul{
@@ -509,6 +592,13 @@
 							size: 20px;
 							weight: bold;
 							style: normal;
+						}
+
+						@media screen and(max-width: 1366px){
+							line-height: 42px;
+							font:{
+								size: 18px;
+							}
 						}
 					}
 				}
