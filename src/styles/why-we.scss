@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 .whyWe{
-	width: inherit;
+	width: 100%;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
@@ -14,6 +14,12 @@
 	
 	@media screen and (max-width: 1366px){
 		margin-bottom: 30px;
+	}
+
+	@media screen and(max-width: 768px){
+		width: 768px;
+		height: auto;
+		margin-top: 50px;
 	}
 
 	h3{
@@ -30,6 +36,13 @@
 		@media screen and (max-width: 1366px){
 			margin-bottom: 30px;
 		}
+
+		@media screen and(max-width: 768px){
+			line-height: 26px;
+			font:{
+				size: 20px;
+			}
+		}
 	}
 
 	.whyWe__content{
@@ -43,6 +56,12 @@
 		-webkit-align-items: center;
 		        align-items: center;
 		
+		@media screen and(max-width: 768px){
+			-webkit-flex-direction: column;
+			    -ms-flex-direction: column;
+			        flex-direction: column;
+		}
+		
 		.whyWe__content__left{
 			display: flex;
 			-webkit-flex-direction: column;
@@ -55,6 +74,10 @@
 			    -webkit-align-items: flex-start;
 			            align-items: flex-start;
 			    width: 55%;
+			    
+			@media screen and(max-width: 768px){
+				width: 100%;
+			}
 
 			.whyWe__content__cards{
 				display: grid;
@@ -69,6 +92,11 @@
 						width: 230px;
 						height: 140px;
 					}
+
+					@media screen and(max-width: 768px){
+						width: 280px;
+						height: 120px;
+					}
 					
 					b{
 						color: #178A00;
@@ -78,6 +106,12 @@
 							size: 32px;
 							weight: bold;
 							style: normal;
+						}
+
+						@media screen and(max-width: 768px){
+							font: {
+								size: 20px;
+							}
 						}
 					}
 
@@ -95,6 +129,14 @@
 							line-height: 28px;
 							font:{
 								size: 18px;
+							}
+						}
+
+						@media screen and(max-width: 768px){
+							margin: 0;
+							line-height: 38px;
+							font:{
+								weight: normal;
 							}
 						}
 					}
@@ -141,6 +183,18 @@
 					        justify-content: center;
 					-webkit-align-items: center;
 					        align-items: center;
+				}
+			}
+
+			@media screen and(max-width: 768px){
+				width: auto;
+				
+				img.whyWe__content__right__img-1920{
+					display: block;
+				}
+
+				img.whyWe__content__right__img-1366{
+					display: none;
 				}
 			}
 		}

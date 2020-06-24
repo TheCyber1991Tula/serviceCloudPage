@@ -2,7 +2,7 @@
 
 .tryIt{
 	width: 100%;
-	height: 400px;
+	height: 450px;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
@@ -16,9 +16,13 @@
 	@media screen and (max-width: 1366px){
 		width: 995px;
 	}
+
+	@media screen and(max-width: 768px){
+		width: 768px;
+		height: 520px;
+	}
 	
 	h3{
-		margin-bottom: 70px;
 		color: #333333;
 		line-height: 41px;
 		font:{
@@ -31,6 +35,10 @@
 		@media screen and(max-width: 1366px){
 			margin-bottom: 15px;
 		}
+
+		@media screen and(max-width: 768px){
+			margin-bottom: 10px;
+		}
 	}
 
 	.tryIt__inputs__wrap{
@@ -38,6 +46,14 @@
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
 		        flex-direction: column;
+		
+		@media screen and(max-width: 768px){
+			height: 315px;
+			-webkit-justify-content: space-between;
+			        justify-content: space-between;
+			    -webkit-align-items: stretch;
+			            align-items: stretch;
+		}
 		
 		.inputs{
 			display: flex;
@@ -48,6 +64,14 @@
 			            justify-content: space-between;
 			    -webkit-align-items: center;
 			            align-items: center;
+			    
+			@media screen and(max-width: 768px){
+				-webkit-flex-direction: column;
+				    -ms-flex-direction: column;
+				        flex-direction: column;
+			    -webkit-align-items: stretch;
+			            align-items: stretch;
+			}
 
 			input{
 				padding-left: 30px;
@@ -67,6 +91,12 @@
 				@media screen and(max-width: 1366px){
 					width: 300px;
 					height: 56px;
+					padding-left: 20px;
+				}
+
+				@media screen and(max-width: 768px){
+					width: auto;
+					margin-bottom: 30px;
 					padding-left: 20px;
 				}
 			}
@@ -89,6 +119,14 @@
 		-webkit-flex-direction: row;
 		    -ms-flex-direction: row;
 		        flex-direction: row;
+		    
+		@media screen and(max-width: 768px){
+			-webkit-align-items: center;
+			        align-items: center;
+		    -webkit-justify-content: space-between;
+		            justify-content: space-between;
+			width: 85%;
+		}
 		    
 		p{
 			color: #6F6F6F;
@@ -121,6 +159,13 @@
 			-webkit-border-radius: 45px;
 			        border-radius: 45px;
 			color: #fff;
+			line-height: 18px;
+			font:{
+				family: 'Open Sans', sans-serif;
+				size: 14px;
+				weight: normal;
+				style: normal;
+			}
 			
 			&:hover{
 				cursor: pointer;
@@ -128,6 +173,12 @@
 
 			@media screen and(max-width: 1366px){
 				width: 288px;
+			}
+
+			@media screen and(max-width: 768px){
+				p{
+					width: 280px;
+				}
 			}
 		}
 	}
