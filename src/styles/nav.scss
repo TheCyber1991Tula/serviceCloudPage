@@ -16,9 +16,13 @@ nav{
 	@media screen and(max-width: 1366px){
 		width: 995px;
 	}
+
+	@media screen and(max-width: 768px){
+		width: 715px;
+	}
 	
 	.nav__left{
-		width: 50%;
+		width: 55%;
 		height: 100%;
 		display: flex;
 		-webkit-flex-direction: row;
@@ -31,6 +35,12 @@ nav{
 		
 		@media screen and (max-width: 1366px){
 			width: 65%;
+		}
+
+		@media screen and(max-width:768px){
+			width: 30%;
+			-webkit-justify-content: center;
+			        justify-content: center;
 		}
 		
 		.nav__left__logo{
@@ -61,6 +71,10 @@ nav{
 				width: 80%;
 				-webkit-justify-content: space-around;
 				        justify-content: space-around;
+			}
+
+			@media screen and(max-width: 768px){
+				display: none;
 			}
 			    
 			li{
@@ -116,6 +130,10 @@ nav{
 				display: none;
 			}
 		}
+
+		@media screen and(max-width: 768px){
+			width: 45%;
+		}
 		
 		.nav__right__login{
 			width: 65px;
@@ -133,7 +151,7 @@ nav{
 				color: #F76201;
 				line-height: 18px;
 				font:{
-					family: PT Sans Caption;
+					family: 'Open Sans', sans-serif;
 					size: 14px;
 					weight: bold;
 					style: normal;
@@ -153,12 +171,17 @@ nav{
 			font:{
 				family: 'Open Sans', sans-serif;
 				style: normal;
-				weight: normal;
+				weight: bold;
 				size: 14px;
 			}
 			
 			&:hover{
 				cursor: pointer;
+			}
+
+			@media screen and(max-width: 768px){
+				width: 148px;
+				height: 40px;
 			}
 		}
 	}

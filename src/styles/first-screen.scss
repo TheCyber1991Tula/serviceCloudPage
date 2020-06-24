@@ -17,6 +17,10 @@
 		margin-top: 40px;
 		width: 995px;
 	}
+
+	@media screen and(max-width: 768px){
+		display: none;
+	}
 	
 	.firstScreen__left{
 		width: 50%;
@@ -44,6 +48,10 @@
 				font: {
 					size: 36px
 				}
+			}
+
+			@media screen and(max-width: 768px){
+				display: none;
 			}
 		}
 
@@ -165,6 +173,114 @@
 		
 		img{
 			padding: 0;
+		}
+	}
+}
+
+.firstScreen-768{
+
+	@media screen and(min-width:768px){
+		display: none;
+	}
+
+	@media screen and(max-width: 768px){
+		width: 768px;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		margin-top: 30px;
+		
+		h2{
+			color: #333333;
+			line-height: 32px;
+			font:{
+				family: 'Open Sans', sans-serif;
+				size: 26px;
+				weight: bold;
+				style: normal;
+			}
+		}
+
+		p{
+			color: #999999;
+			line-height: 21px;
+			font:{
+				family: 'Open Sans', sans-serif;
+				size: 16px;
+				weight: normal;
+				style: normal;
+			}
+		}
+		    
+		.firstScreen-768__content{
+			height: 300px;
+			display: flex;
+			-webkit-flex-direction: row;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			 -webkit-justify-content: space-between;
+			         justify-content: space-between;
+			    
+			.firstScreen-768__left{
+				width: 55%;
+				display: flex;
+				-webkit-flex-direction: column;
+				    -ms-flex-direction: column;
+				        flex-direction: column;
+				ul{
+					padding: 20px;
+					li{
+						margin-bottom: 10px;
+						color: #333333;
+						line-height: 20px;
+						font:{
+							family: 'Ubuntu', sans-serif;
+							size: 16px;
+							weight: normal;
+							style: normal;
+						}
+					}
+				}
+
+				button{
+					width: 319px;
+					height: 48px;
+					background: linear-gradient(180deg, #F76201 0%, #FF4D00 100%);
+					border: none;
+					-webkit-border-radius: 45px;
+					        border-radius: 45px;
+					color: #fff;
+					line-height: 20px;
+					font:{
+						family: 'Ubuntu', sans-serif;
+						size: 14px;
+						weight: normal;
+						style: normal;
+					}
+
+					@media screen and(max-width: 1366px){
+						width: 248px;
+						line-height: 18px;
+					}
+					
+					&:hover{
+						cursor: pointer;
+					}
+				}
+			}
+
+			.firstScreen-768__right{
+				width: 45%;
+				display: flex;
+				-webkit-flex-direction: row;
+				    -ms-flex-direction: row;
+				        flex-direction: row;
+				-webkit-justify-content: flex-end;
+				        justify-content: flex-end;
+				-webkit-align-items: center;
+				        align-items: center;
+			}
 		}
 	}
 }

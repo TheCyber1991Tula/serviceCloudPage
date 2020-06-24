@@ -2,8 +2,9 @@
 
 .reviews{
 	margin-bottom: 50px;
+	margin-top: 30px;
 	width: 1366px;
-	height: 472px;
+	height: 492px;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
@@ -13,9 +14,13 @@
 	-webkit-align-items: center;
 	        align-items: center;
 	
+	@media screen and(max-width: 1366px){
+		width: 995px;
+	}
+	
 	.reviews__cards{
 		width: 100%;
-		height: 425px;
+		height: 455px;
 		display: flex;
 		-webkit-flex-direction: row;
 		    -ms-flex-direction: row;
@@ -26,18 +31,22 @@
 		    
 		.reviews__card{
 			width: 620px;
-			height: 425px;
 			display: flex;
 			-webkit-flex-direction: column;
 			    -ms-flex-direction: column;
 			        flex-direction: column;
 			    -webkit-align-items: center;
 			            align-items: center;
-			    -webkit-justify-content: center;
-			            justify-content: center;
+			    -webkit-justify-content: space-evenly;
+			            justify-content: space-evenly;
 			    height: 395px;
 			    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
 				border-radius: 10px;
+				
+			@media screen and(max-width: 1366px){
+				width: 484px;
+			}
+				
 			    
 			.reviews__card__header{
 				width: 80%;
@@ -122,6 +131,10 @@
 						size: 16px;
 						weight: normal;
 						style: normal;
+					}
+
+					@media screen and(max-width: 1366px){
+						line-height: 22px;
 					}
 				}
 			}
@@ -212,6 +225,10 @@
 
 			img{
 				margin: 5px;
+			}
+
+			@media screen and(max-width: 1366px){
+				right: 400px;
 			}
 		}
 	}

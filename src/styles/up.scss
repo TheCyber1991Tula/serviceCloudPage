@@ -4,4 +4,8 @@
 	position: relative;
 	left: 1500px;
 	bottom: 80px;
+	
+	@media screen and(max-width: 1366px){
+		display: none;
+	}
 }
