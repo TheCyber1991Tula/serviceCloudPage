@@ -17,9 +17,13 @@
 	}
 
 	@media screen and(max-width: 768px){
-		width: 768px;
+		width: 640px;
 		height: auto;
 		margin-top: 50px;
+	}
+
+	@media screen and(max-width: 320px){
+		width: 280px;
 	}
 
 	h3{
@@ -85,6 +89,13 @@
 				grid-template-columns: 2fr 2fr;
 				grid-gap: 30px;
 				
+				@media screen and(max-width: 320px){
+					display: flex;
+					-webkit-flex-direction: column;
+					    -ms-flex-direction: column;
+					        flex-direction: column;
+				}
+				
 				.whyWe__content__card{
 					width: 330px;
 					
@@ -96,6 +107,11 @@
 					@media screen and(max-width: 768px){
 						width: 280px;
 						height: 120px;
+					}
+
+					@media screen and(max-width: 320px){
+						width: 100%;
+						text-align: center;
 					}
 					
 					b{
@@ -111,6 +127,12 @@
 						@media screen and(max-width: 768px){
 							font: {
 								size: 20px;
+							}
+						}
+
+						@media screen and(max-width: 320px){
+							font: {
+								size: 24px;
 							}
 						}
 					}
@@ -139,6 +161,14 @@
 								weight: normal;
 							}
 						}
+
+						@media screen and(max-width: 320px){
+							line-height: 20px;
+							font:{
+								size: 16px;
+								weight: normal;
+							}
+						}
 					}
 				}
 			}
@@ -159,6 +189,10 @@
 
 				img{
 					margin: 5px;
+				}
+
+				@media screen and(max-width: 320px){
+					display: none;
 				}
 			}
 		}
@@ -195,6 +229,19 @@
 
 				img.whyWe__content__right__img-1366{
 					display: none;
+				}
+			}
+
+			@media screen and(min-width: 1366px){
+				img.whyWe__content__right__img-1366{
+					display: none;
+				}
+			}
+
+			@media screen and(max-width: 320px){
+				img{
+					width: 284px;
+					height: 187px;
 				}
 			}
 		}

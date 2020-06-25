@@ -13,6 +13,13 @@
 	    
 	@media screen and(max-width: 768px){
 		margin-bottom: 30px;
+		width: 640px;
+	}
+
+	@media screen and(max-width: 320px){
+		width: 280px;
+		margin-bottom: 20px;
+		height: auto;
 	}
 
 	h3.safetyAdvantage__h3-1366{
@@ -25,6 +32,14 @@
 				size: 32px;
 				weight: bold;
 				style: normal;
+			}
+		}
+
+		@media screen and(max-width: 320px){
+			margin-bottom: 0;
+			line-height: 26px;
+			font:{
+				size: 20px;
 			}
 		}
 	}
@@ -51,6 +66,13 @@
 		    -ms-flex-direction: row;
 		        flex-direction: row;
 		    
+		@media screen and(max-width: 320px){
+			-webkit-flex-direction: column-reverse;
+			    -ms-flex-direction: column-reverse;
+			        flex-direction: column-reverse;
+		    height: auto;
+		}
+		    
 		.safety__illustration__pic{
 			width: 45%;
 			height: auto;
@@ -62,28 +84,30 @@
 				    -webkit-align-items: center;
 				            align-items: center;
 			}
-			
-			img.safety__illustration__pic-1920{
-				display: block;
-				
+
+			@media screen and(max-width: 320px){
+				width: 100%;
+			}
+
+			img{
+				@media screen and(min-width: 1366px){
+					width: 454px;
+					height: 410px;
+				}
+
 				@media screen and(max-width: 1366px){
-					display: none;
+					width: 387px;
+					height: 350px;
 				}
-			}
 
-			img.safety__illustration__pic-1366{
-				display: none;
-				
-				@media screen and(max-width: 1366px) and (min-width: 768px){
-					display: block;
-				}
-			}
-
-			img.safety__illustration__pic-768{
-				display: none;
-				
 				@media screen and(max-width: 768px){
-					display: block;
+					width: 308px;
+					height: 277px;
+				}
+
+				@media screen and(max-width: 320px){
+					width: 302px;
+					height: 271px;
 				}
 			}
 		}
@@ -96,8 +120,11 @@
 			    width: 55%;
 			    height: auto;
 			    
+			@media screen and(max-width: 320px){
+				width: 100%;
+			}
+			    
 			ul{
-
 				li{
 					padding: 0;
 					list-style: url('../img/Vector orange.png');
@@ -124,6 +151,11 @@
 							size: 14px;
 						}
 					}
+				}
+
+				@media screen and(max-width: 320px){
+					width: 98%;
+					padding: 0;
 				}
 			}
 		}

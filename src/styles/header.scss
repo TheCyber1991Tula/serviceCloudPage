@@ -12,6 +12,15 @@ header{
 	-webkit-align-items: center;
 	        align-items: center;
 	
+	@media screen and(max-width: 768px){
+		width: 640px;
+	}
+	
+	@media screen and(max-width: 320px){
+		width: 320px;
+		height: auto;
+	}
+	
 	.header__top{
 		display: flex;
 		width: 1366px;
@@ -73,6 +82,8 @@ header{
 		        flex-direction: row;
 		-webkit-justify-content: center;
 		        justify-content: center;
+		-webkit-align-items: center;
+		        align-items: center;
 		background: #F4F4F4;
 		
 		@media screen and(max-width: 1366px){
@@ -81,6 +92,12 @@ header{
 
 		@media screen and(max-width: 768px){
 			width: 768px;
+		}
+
+		@media screen and(max-width: 320px){
+			width: 320px;
+			-webkit-align-items: center;
+			        align-items: center;
 		}
 		
 		.header__bottom{
@@ -104,6 +121,16 @@ header{
 				height: 45px;
 				-webkit-align-items: baseline;
 				        align-items: baseline;
+				-webkit-justify-content: space-around;
+				        justify-content: space-around;
+			}
+
+			@media screen and(max-width: 320px){
+				width: 100%;
+				-webkit-align-items: center;
+				        align-items: center;
+				    -webkit-justify-content: center;
+				            justify-content: center;
 			}
 			
 			.header__bottom__left{
@@ -190,7 +217,7 @@ header{
 				}
 
 				@media screen and (max-width: 768px){
-					width: 100%;
+					width: 90%;
 				}
 				    
 				a{
@@ -238,6 +265,14 @@ header{
 						}
 					}
 
+					@media screen and(max-width: 320px){
+						width: 184px;
+						
+						img{
+							margin-right: 10px;
+						}
+					}
+
 					    
 					input{
 						border: none;
@@ -262,6 +297,7 @@ header{
 						-webkit-justify-content: space-between;
 						        justify-content: space-between;
 						
+						
 						h3{
 							color: #6F6F6F;
 							line-height: 18px;
@@ -271,6 +307,20 @@ header{
 								style: normal;
 								weight: bold;
 								size: 14px;
+							}
+
+							@media screen and(max-width: 320px){
+								display: none;
+							}
+						}
+
+					@media screen and(max-width: 320px){
+						width: 25%;
+					}
+
+						img.header__bottom__right__phone{
+							@media screen and(min-width: 320px){
+								display: none;
 							}
 						}
 						

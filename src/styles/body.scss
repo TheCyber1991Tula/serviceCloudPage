@@ -1,4 +1,4 @@
-body{
+html,body{
     width: 1920px;
     height: auto;
     background: #FFFFFF;
@@ -10,6 +10,22 @@ body{
             align-items: center;
     -webkit-justify-content: center;
             justify-content: center;
+    
+    @media screen and(min-width: 1366px){
+		width: auto;
+	}
+    
+    @media screen and(max-width: 1366px){
+		width: 1366px;
+	}
+
+	@media screen and(max-width:768px){
+		width: 725px;
+	}
+
+	@media screen and(max-width: 320px){
+		width: 320px;
+	}
 	    
 	.content{
 		display: flex;
@@ -27,11 +43,13 @@ body{
 		}
 
 		@media screen and(max-width:768px){
-			width: 768px;
+			-webkit-align-items: center;
+			        align-items: center;
+			width: 725px;
 		}
-				
-		.hidden{
-			display: none;
+
+		@media screen and(max-width: 320px){
+			width: 320px;
 		}
 	}
 }

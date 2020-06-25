@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .tryIt{
-	width: 100%;
+	width: 90%;
 	height: 450px;
 	display: flex;
 	-webkit-flex-direction: column;
@@ -12,14 +12,20 @@
 	-webkit-align-items: stretch;
 	        align-items: stretch;
 	margin-bottom: 70px;
+	margin-top: 60px;
 	
 	@media screen and (max-width: 1366px){
 		width: 995px;
 	}
 
 	@media screen and(max-width: 768px){
-		width: 768px;
+		width: 640px;
 		height: 520px;
+	}
+
+	@media screen and(max-width: 320px){
+		width: 280px;
+		margin-bottom: 20px;
 	}
 	
 	h3{
@@ -39,6 +45,13 @@
 		@media screen and(max-width: 768px){
 			margin-bottom: 10px;
 		}
+
+		@media screen and(max-width: 320px){
+			line-height: 26px;
+			font:{
+				size: 20px;
+			}
+		}
 	}
 
 	.tryIt__inputs__wrap{
@@ -48,11 +61,16 @@
 		        flex-direction: column;
 		
 		@media screen and(max-width: 768px){
+			width: 640px;
 			height: 315px;
 			-webkit-justify-content: space-between;
 			        justify-content: space-between;
 			    -webkit-align-items: stretch;
 			            align-items: stretch;
+		}
+
+		@media screen and(max-width: 320px){
+			width: 280px;
 		}
 		
 		.inputs{
@@ -73,8 +91,11 @@
 			            align-items: stretch;
 			}
 
+			@media screen and(max-width: 320px){
+				width: 280px;
+			}
+
 			input{
-				padding-left: 30px;
 				width: 384px;
 				height: 64px;
 				border: 1px solid #B6B6B6;
@@ -98,6 +119,11 @@
 					width: auto;
 					margin-bottom: 30px;
 					padding-left: 20px;
+				}
+
+				@media screen and(max-width: 320px){
+					width: 260px;
+					height: 56px;
 				}
 			}
 		}
@@ -126,6 +152,18 @@
 		    -webkit-justify-content: space-between;
 		            justify-content: space-between;
 			width: 85%;
+		}
+
+		@media screen and(max-width: 320px){
+			-webkit-flex-direction: column;
+			    -ms-flex-direction: column;
+			        flex-direction: column;
+		    width: 280px;
+		    -webkit-justify-content: center;
+		            justify-content: center;
+		    -webkit-align-items: center;
+		            align-items: center;
+		    
 		}
 		    
 		p{
@@ -179,6 +217,11 @@
 				p{
 					width: 280px;
 				}
+			}
+
+			@media screen and(max-width: 320px){
+				width: 279px;
+				margin: 0;
 			}
 		}
 	}

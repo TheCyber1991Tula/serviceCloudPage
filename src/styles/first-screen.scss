@@ -161,13 +161,17 @@
 		-webkit-align-items: center;
 		        align-items: center;
 		
-		@media screen and(max-width: 1366px){
-			img.first__screen__img-1920{
-				display: none;
+		@media screen and(min-width:1366px){
+			img{
+				width: 703px;
+				height: 487px;
 			}
-
-			img.first__screen__img-1366{
-				display: block;
+		}
+		
+		@media screen and(max-width: 1366px){
+			img{
+				width: 563px;
+				height: 381px;
 			}
 		}
 		
@@ -184,7 +188,7 @@
 	}
 
 	@media screen and(max-width: 768px){
-		width: 768px;
+		width: 640px;
 		display: flex;
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
@@ -280,7 +284,109 @@
 				        justify-content: flex-end;
 				-webkit-align-items: center;
 				        align-items: center;
+				
+				@media screen and(max-width: 768px){
+					img{
+						width: 360px;
+						height: 245px;
+					}
+				}
 			}
+		}
+	}
+
+	@media screen and(max-width: 320px){
+		display: none;
+	}
+}
+
+.firstScreen-320{
+	@media screen and(min-width: 320px){
+		display: none;
+	}
+
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 280px;
+	height: auto;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin-bottom: 35px;
+	
+	h2{
+		margin-left: 10px;
+		color: #333333;
+		line-height: 32px;
+		font:{
+			family: 'Open Sans', sans-serif;
+			size: 24px;
+			weight: bold;
+			style: normal;
+		}
+	}
+
+	ul{
+		padding-left: 35px;
+		li{
+			margin-bottom: 5px;
+			color: #333333;
+			line-height: 20px;
+			font:{
+				family: 'Ubuntu', sans-serif;
+				size: 16px;
+				weight: normal;
+				style: normal;
+			}
+		}
+	}
+
+	img{
+		height: 231px;
+		width: auto;
+		margin: auto;
+	}
+
+	button{
+		width: 280px;
+		height: 40px;
+		background: linear-gradient(180deg, #F76201 0%, #FF4D00 100%);
+		border: none;
+		-webkit-border-radius: 45px;
+		        border-radius: 45px;
+		color: #fff;
+		line-height: 20px;
+		margin-top: 20px;
+		font:{
+			family: 'Ubuntu', sans-serif;
+			size: 14px;
+			weight: normal;
+			style: normal;
+		}
+		
+		&:hover{
+			cursor: pointer;
+		}
+	}
+
+	img{
+		@media screen and(max-width: 320px){
+			width: 320px;
+			height: auto;
+		}
+	}
+
+	p{
+		color: #999999;
+		line-height: 16px;
+		font:{
+			family: 'Open Sans', sans-serif;
+			size: 12px;
+			weight: normal;
+			style: normal;
 		}
 	}
 }

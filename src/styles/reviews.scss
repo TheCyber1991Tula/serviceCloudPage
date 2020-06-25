@@ -21,6 +21,11 @@
 	@media screen and(max-width: 768px){
 		width: 715px;
 	}
+
+	@media screen and(max-width: 320px){
+		width: 280px;
+		height: 430px;
+	}
 	
 	.reviews__cards{
 		width: 100%;
@@ -32,6 +37,14 @@
 		-webkit-justify-content: space-evenly;
 		        justify-content: space-evenly;
 		    padding: 10px;
+		    
+		@media screen and(max-width: 768px){
+			width: 642px;
+		}
+
+		@media screen and(max-width: 320px){
+			width: 280px;
+		}
 		    
 		.reviews__card{
 			width: 620px;
@@ -52,7 +65,7 @@
 			}
 
 			@media screen and(max-width: 768px){
-				width: 100%;
+				width: 642px;
 				-webkit-align-items: flex-start;
 				        align-items: flex-start;
 				    -webkit-justify-content: center;
@@ -62,8 +75,14 @@
 					display: none;
 				}
 			}
+
+			@media screen and(max-width: 320px){
+				-webkit-align-items: stretch;
+				        align-items: stretch;
+			    height: 365px;
+			    width: 280px;
+			}
 				
-			    
 			.reviews__card__header{
 				width: 80%;
 				height: 130px;
@@ -78,7 +97,10 @@
 				
 				@media screen and(max-width: 768px){
 					width: 50%;
-					
+				}
+
+				@media screen and(max-width: 320px){
+					width: 100%;
 				}
 				    
 				.reviews__card__header__left{
@@ -95,6 +117,11 @@
 					
 					@media screen and(max-width: 768px){
 						margin-left: 30px;
+					}
+
+					@media screen and(max-width: 320px){
+						margin-left: 20px;
+						width: 60%;
 					}
 					
 					h5{
@@ -153,6 +180,19 @@
 				padding-left: 10px;
 				width: 80%;
 				height: 150px;
+				margin: 0;
+				color: #333333;
+				line-height: 24px;
+				font:{
+					family: 'Open Sans', sans-serif;
+					size: 16px;
+					weight: normal;
+					style: normal;
+				}
+
+				@media screen and(max-width: 1366px){
+					line-height: 22px;
+				}
 				
 				@media screen and(max-width: 768px){
 					width: 90%;
@@ -161,21 +201,39 @@
 					        justify-content: center;
 					    margin-left: 30px;
 				}
-				
-				p{
-					margin: 0;
-					color: #333333;
-					line-height: 24px;
+
+				@media screen and(max-width: 320px){
+					width: 85%;
+					height: 90px;
+					margin-left: 30px;
+				    margin-left: 0;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+				    -webkit-line-clamp: 4;
+				    overflow: hidden;
+					-webkit-align-self: center;
+					        align-self: center;
+				}
+			}
+
+			.reviews__card__seeMore{
+				@media screen and(min-width: 320px){
+					display: none;
+				}
+				@media screen and(max-width: 320px){
+					z-index: 3;
+					position: relative;
+					text-decoration: underline;
+					left: 55px;
+					color: #FF6500;
+					line-height: 20px;
 					font:{
 						family: 'Open Sans', sans-serif;
 						size: 16px;
 						weight: normal;
 						style: normal;
 					}
-
-					@media screen and(max-width: 1366px){
-						line-height: 22px;
-					}
+					cursor: pointer;
 				}
 			}
 
@@ -192,8 +250,11 @@
 				    -webkit-align-items: center;
 				            align-items: center;
 				
-				@media screen and(max-width: 768px){
-					
+				@media screen and(max-width: 320px){
+					width: 100%;
+					-webkit-justify-content: center;
+					        justify-content: center;
+					    margin-left: 0;
 				}
 				
 				button{
@@ -229,12 +290,15 @@
 						margin-left: 5px;
 					}
 				}
-
 			}
 		}
 	}
 
 	.reviews__allReviews__pages{
+		@media screen and(max-width: 320px){
+			margin-top: 20px;
+		}
+
 		display: flex;
 		width: 160px;
 		-webkit-flex-direction: row;
@@ -257,6 +321,19 @@
 	}
 
 	.reviews__allReviews__link{
+		@media screen and(max-width: 320px){
+			height: auto;
+			display: flex;
+			-webkit-flex-direction: column;
+			    -ms-flex-direction: column;
+			        flex-direction: column;
+			-webkit-justify-content: center;
+			        justify-content: center;
+			-webkit-align-items: center;
+			        align-items: center;
+			margin-top: 20px;
+		}
+
 		a{
 			position: relative;
 			bottom: 15px;
@@ -271,6 +348,10 @@
 				size: 14px;
 				weight: bold;
 				style: normal;
+			}
+
+			@media screen and(max-width: 320px){
+				position: static;
 			}
 
 			img{
